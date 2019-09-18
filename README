@@ -1,0 +1,10 @@
+两个脚本分别是Centos6和Centos7的NGINX服务启动脚本
+
+操作方式：
+· Centos6
+  # cp centos6_script /etc/init.d/nginx
+  # chmod +x nginx
+
+· Centos7
+  # cp centos7_script /usr/lib/systemd/system/nginx
+  # chmod 754 nginx
